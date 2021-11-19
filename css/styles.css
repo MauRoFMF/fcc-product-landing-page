@@ -2,7 +2,6 @@
 header {
     display: flex;
     align-items: center;
-    outline: 2px solid black;
     justify-content: space-between;
 }
 
@@ -63,7 +62,7 @@ form {
 
 iframe {
     display: block;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .pricing {
@@ -76,10 +75,26 @@ iframe {
 .pricing h2 {
     text-align: center;
     margin: 0 0;
+    background-color: blanchedalmond;
 }
 
 .standard, .deluxe, .premium {
     display: flex;
     flex-direction: column;
-    border: 3px solid black;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightgray
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+
 }
